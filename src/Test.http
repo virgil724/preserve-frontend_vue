@@ -1,0 +1,16 @@
+OPTIONS http://127.0.0.1:8000/api/preserve/
+
+###
+POST http://127.0.0.1:8000/api/preserve/
+
+{"date":null,"game":null,"who":null,"streamer":null}
+###
+GET http://127.0.0.1:8000/api/preserve/ 
+
+###
+POST http://127.0.0.1:8000/api/token/
+
+{
+    "username':""
+}
+
